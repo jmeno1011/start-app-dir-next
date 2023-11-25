@@ -19,7 +19,6 @@ export default function Home() {
   const onSubmitUser = (e:FormEvent<HTMLFormElement>)=>{
     e.preventDefault();
     console.log(user);
-    
   }
 
   return (
